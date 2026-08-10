@@ -1,0 +1,39 @@
+# Splunk local files
+*.splunk
+*.splunklog
+*.pid
+*.lock
+
+# Splunk configuration / runtime data
+splunk/
+var/
+etc/
+
+# Local environment files
+.env
+.env.*
+*.key
+*.pem
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Personal learning notes - not published yet
+docs/notes/
+
+# Unfinished investigation
+investigations/01-password-spraying/

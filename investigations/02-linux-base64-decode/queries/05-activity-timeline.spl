@@ -1,0 +1,5 @@
+index=soc_lab sourcetype="auditd"
+| search a0="base64" a1 IN ("-d","--decode")
+| sort _time
+| delta _time as seconds_since_previous
+| table _time a1 a2 seconds_since_previous

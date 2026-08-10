@@ -1,0 +1,3 @@
+index=soc_lab sourcetype="auditd"
+| search a0="base64"
+| table _time type argc a0 a1 a2

@@ -1,0 +1,2 @@
+index=soc_lab sourcetype="auditd"
+| table _time type argc a0 a1 a2

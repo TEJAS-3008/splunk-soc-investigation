@@ -1,0 +1,4 @@
+type=EXECVE msg=audit(1724076068.563:2832): argc=2 a0="base64" a1="--decode"
+type=EXECVE msg=audit(1724076062.939:2827): argc=2 a0="base64" a1="-d"
+type=EXECVE msg=audit(1724076022.359:2805): argc=3 a0="base64" a1="-d" a2="SGVsbG8sIFdvcmxkIQ=="
+type=EXECVE msg=audit(1724076010.511:2797): argc=3 a0="base64" a1="-d" a2="https://chatgpt.com/c/a05d3bbd-bb2a-479b-b048-ca9eaf8f265a#:~:text=Copy%20code-,SGVsbG8sIFdvcmxkIQ%3D%3D,-Decode%20th"
